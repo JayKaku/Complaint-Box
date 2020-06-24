@@ -1,0 +1,84 @@
+body {
+  background-image: url(./logo.jpg);
+  background-position: center;
+  background-size: cover;
+
+  font-family: Sans-Serif;
+
+  height: 100%;
+
+  margin: 0;
+  padding: 50px;
+}
+
+h1 {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.loginbox {
+  width: 27vw;
+  min-height: 400px;
+  height: 80vh;
+  background-position: center;
+  background: #0008;
+  color: white;
+
+  box-sizing: border-box;
+
+  margin: auto;
+}
+
+#username,
+#password {
+  background: white;
+  color: black;
+
+  font-size: 15px;
+
+  margin: 5px;
+  padding: 18px;
+
+  border: none;
+  border-radius: 8px;
+
+  outline: none;
+}
+#username:focus,
+#password:focus {
+  box-shadow: #fff8 0 0 10px;
+}
+
+.avatar {
+  display: block;
+
+  width: 110px;
+  height: 110px;
+
+  border-radius: 0%;
+
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+#but_submit {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: #0ff8;
+  color: white;
+
+  margin: 8px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+}
+#but_submit:focus {
+  transform: scale(1.1);
+}

@@ -1,0 +1,87 @@
+h1 {
+  color: whitesmoke;
+  font-size: xxx-large;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to right, rgb(0, 68, 255), purple);
+  font-family: Sans-Serif;
+
+  height: 100%;
+
+  margin: 0;
+  padding: 50px;
+}
+
+tr {
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  text-align: absolute;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+}
+.Updatebox {
+  position: absolute;
+  top: 200px;
+  right: 500px;
+}
+#update {
+  font-size: 16px;
+  font-weight: bold;
+
+  margin: 8px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+  position: center;
+}
+#but_submit_u {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: grey;
+  color: white;
+
+  margin: 8px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+  position: center;
+}
+
+#but_submit_u:focus {
+  transform: scale(1.1);
+}
+
+#but_logout {
+  font-size: 16px;
+  font-weight: bold;
+
+  background-color: rgba(207, 8, 8, 0.822);
+  color: white;
+
+  margin: 8px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  outline: none;
+  position: absolute;
+  right: 20px;
+  top: 87px;
+}
+#but_logout:focus {
+  transform: scale(1.1);
+}
